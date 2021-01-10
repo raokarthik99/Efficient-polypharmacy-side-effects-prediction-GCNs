@@ -11,7 +11,7 @@
  * Each drug-drug interaction is to be labelled by a different edge type, which signifies the type of side-effect. 
  *	Then, a new multi-relational edge prediction model is to be developed that uses the multimodal graph to predict drug-drug interactions as well as their type.
  
-[Problem Statement](/img/problem_statement.png)
+![Problem Statement](/img/problem_statement.png)
 
 # Sample results
 ## Querying on a particular drug pair
