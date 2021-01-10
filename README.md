@@ -62,7 +62,7 @@ The data sets used for this implementation were taken directly from http://snap.
 # Getting started 
 The instructions provided below are best applicable when using Google Colab and Google Cloud Platform. Nonetheless, it can be easily generalized to suit different contexts.
 
-(Optional: Download the raw data sets from [BioSNAP](), unzip them accordingly, create a new folder called raw_data and upload all the CSV files. Run the data_exploration.ipynb notebook. This step is crucial if one wishes to modify the data sets or use data sets other than the ones specified.)
+(Optional: Download the raw data sets from [BioSNAP](http://snap.stanford.edu/decagon), unzip them accordingly, create a new folder called raw_data and upload all the CSV files. Run the data_exploration.ipynb notebook. This step is crucial if one wishes to modify the data sets or use data sets other than the ones specified.)
 
 1. Clone this repo and upload all the items to a Google Drive account. Make note of the location where the items are uploaded on the drive.  
 
@@ -80,4 +80,4 @@ The instructions provided below are best applicable when using Google Colab and 
 7. Upload the 1-in-all combined CSV file to Google Cloud Storage (under a bucket). 
 
 8. Create a BigQuery table from this CSV file and query the result set as desired. 
-*Excercise caution while providing the drug identifiers in the queries. The Chemical IDentifier (CID) used is the same as that used by [PubChem](). One could use PubChem to obtain details of any of the 645 drugs that we can use (Remember, we are limited to the BioSNAP data set used which has protein-protein, protein-drug and drug-drug interactions for the 645 most common drugs that occur in polypharamacy contexts. Nonetheless, the model itself is flexible to work for any new protein, drug and/or side-effect without having to be re-trained. It is just necessary to model these new entities and represent them in the input subgraphs before passing it through the trained encoder/decoder framework.*
+*Excercise caution while providing the drug identifiers in the queries. The Chemical IDentifier (CID) used is the same as that used by [PubChem](https://pubchem.ncbi.nlm.nih.gov/). One could use PubChem to obtain details of any of the 645 drugs that we can use (Remember, we are limited to the BioSNAP data set used which has protein-protein, protein-drug and drug-drug interactions for the 645 most common drugs that occur in polypharamacy contexts. Nonetheless, the model itself is flexible to work for any new protein, drug and/or side-effect without having to be re-trained. It is just necessary to model these new entities and represent them in the input subgraphs before passing it through the trained encoder/decoder framework.*
