@@ -17,7 +17,7 @@
 ## Querying on a particular drug pair
 ![Sample query](/img/sample_query_1.png) 
 
-![Sample results]()  
+![Sample results](/img/sample_query_results_1.png)  
 
 ## Querying on a particular side-effect 
 ![Sample query](/img/sample_query_2.png)  
@@ -81,8 +81,3 @@ The instructions provided below are best applicable when using Google Colab and 
 
 8. Create a BigQuery table from this CSV file and query the result set as desired. 
 *Excercise caution while providing the drug identifiers in the queries. The Chemical IDentifier (CID) used is the same as that used by [PubChem](). One could use PubChem to obtain details of any of the 645 drugs that we can use (Remember, we are limited to the BioSNAP data set used which has protein-protein, protein-drug and drug-drug interactions for the 645 most common drugs that occur in polypharamacy contexts. Nonetheless, the model itself is flexible to work for any new protein, drug and/or side-effect without having to be re-trained. It is just necessary to model these new entities and represent them in the input subgraphs before passing it through the trained encoder/decoder framework.*
-
-
-
-
- 
