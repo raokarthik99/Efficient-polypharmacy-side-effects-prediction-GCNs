@@ -27,7 +27,7 @@
 
 ![Sample results](/img/sample_query_results_2.png)  
 
-## Querying on a particular side-effect 
+## Querying on a particular side-effect for a particular drug-pair 
 ![Sample query](/img/sample_query_3.png)  
 
 ![Sample results](/img/sample_query_results_3.png)  
