@@ -1,5 +1,5 @@
 # Efficient-polypharmacy-side-effects-predictions-GCNs
- This repository contains the source code and jupyter notebooks associated with our work on "Efficiently Predicting Pharmacological Side-effects Resulting from Pair-wise  Consumption of Drugs, using Graph Convolutional Networks". The source code is written and tested in Python3. It leverages PyTorch and several of its associated packages. End-to-end development of this project was done using [Google Colaboratory](https://colab.research.google.com/) along with the help of Google Cloud Platform for storing, analysing and visualizing the results. It may be advisable to go through our [paper]() for a more refined understanding of this implementation.
+ This repository contains the source code and jupyter notebooks associated with our work on "Efficiently Predicting Pharmacological Side-effects Resulting from Pair-wise  Consumption of Drugs, using Graph Convolutional Networks". The source code is written and tested in Python3. It leverages PyTorch and several of its associated packages. End-to-end development of this project was done using [Google Colaboratory](https://colab.research.google.com/) along with the help of Google Cloud Platform for storing, analysing and visualizing the results. It may be advisable to go through our [paper]() for a more refined understanding of this implementation. Kindly contact karthiksrao.cs17@rvce.edu.in for any additional queries and/or suggestions. 
 
 # About 
  Polypharmacy has grown rampantly in the past few decades as an attempt to treat patients with complex diseases or co-existing conditions. Nonetheless, a dangerous consequence of polypharmacy is unanticipated adverse side-effects. These side-effects manifest due to drug-drug interactions, where one drug influences the behaviour of the other. This problem can be modelled as a multi-relational link prediction task that leverages graph convolutional networks. A recent research proposed a model named decagon that uses a multimodal graph of protein-protein interactions, drug-protein interactions and drug-drug interactions labelled with polypharmacy side-effects. However, this method leads to high computational costs and memory demands. A follow-up study suggested a ‘tri-information propagation (TIP)’ approach that simplified the processing by breaking down the task into three modules. Although this attempt significantly reduced resource usage, there was no evidence that the results put forward captured all possible side-effects for all possible pair-wise combinations of drugs. Such evidence is crucial to facilitate the translational science and the discovery of novel drug combinations which was the basic premise for the decagon model. Our work aims to efficiently meet the objectives of the decagon model by building on the TIP-based architecture and leveraging big data solutions on the cloud. 
@@ -40,7 +40,7 @@ The data sets used for this implementation were taken directly from http://snap.
 ## Decoder
 ![Decoder](/img/decoder.png)
 
-# 6 model variants 
+# Model variants 
 1. DF-DistMult
 2. DDM-DF-RGCN
 3. DDM-NN
