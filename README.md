@@ -6,14 +6,14 @@
  
 # Sample results
 ## Querying on a particular drug pair
-![Sample query]()  
-![Sample results]()  
+![Sample query](/img/sample_query_1.png)  
+![Sample results](/img/sample_query_results_1.png)  
 ## Querying on a particular side-effect 
-![Sample query]()  
-![Sample results]()  
+![Sample query](/img/sample_query_2.png)  
+![Sample results](/img/sample_query_results_2.png)  
 ## Querying on a particular side-effect 
-![Sample query]()  
-![Sample results]()  
+![Sample query](/img/sample_query_3.png)  
+![Sample results](/img/sample_query_results_3.png)  
 
 # Data sets
 The data sets used for this implementation were taken directly from http://snap.stanford.edu/decagon. It is not included in this repo due to size limitations. If one wishes to use the same data sets without modifications, it is not neccessary to acquire them and integrate it into this implementation. The data folder contains all the preprocessed files that would be sufficient for training and evaluating the model.    
@@ -22,9 +22,9 @@ Number of side-effects = 1097.
 
 # Architecture 
 ## Encoder 
-![Encoder]()
+![Encoder](/img/encoder.png)
 ## Decoder
-![Decoder]()
+![Decoder](/img/decoder.png)
 
 # 6 model variants 
 1. DF-DistMult
