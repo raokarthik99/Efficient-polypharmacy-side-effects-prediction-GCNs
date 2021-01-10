@@ -17,7 +17,7 @@
 ## Querying on a particular drug pair
 ![Sample query](/img/sample_query_1.png) 
 
-![Sample results](/img/sample_query_results_1.png)  
+![Sample results]()  
 
 ## Querying on a particular side-effect 
 ![Sample query](/img/sample_query_2.png)  
